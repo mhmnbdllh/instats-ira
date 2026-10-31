@@ -1,0 +1,8 @@
+# Test-only dependencies for tests/test_irar_formulas.py.
+# Not required by the deployed Streamlit app itself (see requirements.txt):
+# they are used only to cross-check the app against independent
+# implementations (Krippendorff's alpha; the standard errors of kappa).
+#
+# Install with: pip install -r tests/requirements-test.txt
+krippendorff>=0.6.1
+statsmodels>=0.14.0
