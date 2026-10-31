@@ -1,0 +1,363 @@
+[PASS ] alpha S1 (nominal) vs krippendorff pkg                                app=0.4142779881 ref=0.4142779881 diff=0.00e+00 tol=1e-10
+[PASS ] alpha S2 (nominal) vs krippendorff pkg                                app=0.4386619534 ref=0.4386619534 diff=1.11e-16 tol=1e-10
+[PASS ] alpha S3 (nominal) vs krippendorff pkg                                app=0.2105454987 ref=0.2105454987 diff=1.11e-16 tol=1e-10
+[PASS ] alpha S4 (nominal) vs krippendorff pkg                                app=0.2604526847 ref=0.2604526847 diff=2.22e-16 tol=1e-10
+[PASS ] alpha S5 (ordinal) vs krippendorff pkg                                app=0.3161762142 ref=0.3161762142 diff=0.00e+00 tol=1e-10
+[PASS ] alpha S6 (ordinal) vs krippendorff pkg                                app=0.3513431338 ref=0.3513431338 diff=3.33e-16 tol=1e-10
+[PASS ] alpha S7 (interval) vs krippendorff pkg                               app=0.3812038611 ref=0.3812038611 diff=0.00e+00 tol=1e-10
+[PASS ] alpha S8 (interval) vs krippendorff pkg                               app=0.5253896549 ref=0.5253896549 diff=1.11e-16 tol=1e-10
+[PASS ] alpha S9 (ratio) vs krippendorff pkg                                  app=0.365986666 ref=0.365986666 diff=0.00e+00 tol=1e-10
+[PASS ] alpha S10 (ratio) vs krippendorff pkg                                 app=0.5149663875 ref=0.5149663875 diff=0.00e+00 tol=1e-10
+[PASS ] alpha S2 with 10% missing cells vs krippendorff pkg                   app=0.4111138231 ref=0.4111138231 diff=1.11e-16 tol=1e-10
+[PASS ] alpha S2 with missing cells uses more units than listwise deletion    alpha units=85 listwise units=56
+[PASS ] alpha S4 with 10% missing cells vs krippendorff pkg                   app=0.2597202847 ref=0.2597202847 diff=2.22e-16 tol=1e-10
+[PASS ] alpha S4 with missing cells uses more units than listwise deletion    alpha units=86 listwise units=56
+[PASS ] alpha S6 with 10% missing cells vs krippendorff pkg                   app=0.3926301646 ref=0.3926301646 diff=0.00e+00 tol=1e-10
+[PASS ] alpha S6 with missing cells uses more units than listwise deletion    alpha units=86 listwise units=53
+[PASS ] alpha S8 with 10% missing cells vs krippendorff pkg                   app=0.5482979655 ref=0.5482979655 diff=1.11e-16 tol=1e-10
+[PASS ] alpha S8 with missing cells uses more units than listwise deletion    alpha units=85 listwise units=53
+[PASS ] alpha S10 with 10% missing cells vs krippendorff pkg                  app=0.5370835234 ref=0.5370835234 diff=0.00e+00 tol=1e-10
+[PASS ] alpha S10 with missing cells uses more units than listwise deletion   alpha units=86 listwise units=58
+[PASS ] Cohen kappa S1 vs scikit-learn                                        app=0.4134960517 ref=0.4134960517 diff=0.00e+00 tol=1e-12
+[PASS ] Cohen kappa S3 vs scikit-learn                                        app=0.2089082547 ref=0.2089082547 diff=0.00e+00 tol=1e-12
+[PASS ] weighted kappa (linear) S5 vs scikit-learn (labels 1..5)              app=0.2651183173 ref=0.2651183173 diff=0.00e+00 tol=1e-12
+[PASS ] weighted kappa (quadratic) S5 vs scikit-learn (labels 1..5)           app=0.3506445672 ref=0.3506445672 diff=0.00e+00 tol=1e-12
+[PASS ] kappa unweighted S1: null SE (Eq. 9) vs statsmodels                   app=0.1065406459 ref=0.1065406459 diff=0.00e+00 tol=1e-10
+[PASS ] kappa unweighted S1: general SE (Eq. 8) vs statsmodels                app=0.1110819762 ref=0.1110819762 diff=4.16e-17 tol=1e-10
+[PASS ] kappa unweighted S3: null SE (Eq. 9) vs statsmodels                   app=0.09119153487 ref=0.09119153487 diff=2.78e-17 tol=1e-10
+[PASS ] kappa unweighted S3: general SE (Eq. 8) vs statsmodels                app=0.0955758919 ref=0.0955758919 diff=0.00e+00 tol=1e-10
+[PASS ] kappa unweighted S5: null SE (Eq. 9) vs statsmodels                   app=0.09119153487 ref=0.09119153487 diff=2.78e-17 tol=1e-10
+[PASS ] kappa unweighted S5: general SE (Eq. 8) vs statsmodels                app=0.0955758919 ref=0.0955758919 diff=0.00e+00 tol=1e-10
+[PASS ] kappa linear S5: null SE (Eq. 9) vs statsmodels                       app=0.08862519172 ref=0.08862519172 diff=5.41e-16 tol=1e-10
+[PASS ] kappa linear S5: general SE (Eq. 8) vs statsmodels                    app=0.09287475488 ref=0.09287475488 diff=3.61e-16 tol=1e-10
+[PASS ] kappa quadratic S5: null SE (Eq. 9) vs statsmodels                    app=0.1046872925 ref=0.1046872925 diff=5.59e-15 tol=1e-10
+[PASS ] kappa quadratic S5: general SE (Eq. 8) vs statsmodels                 app=0.09758474332 ref=0.09758474332 diff=7.26e-15 tol=1e-10
+[PASS ] ICC(1,1) S7 vs pingouin                                               app=0.38258833 ref=0.38258833 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,1) S7 95% CI lo vs pingouin (2 dp)                              app=0.19 ref=0.19 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,1) S7 95% CI hi vs pingouin (2 dp)                              app=0.55 ref=0.55 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S7 vs pingouin                                               app=0.4285660245 ref=0.4285660245 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,1) S7 95% CI lo vs pingouin (2 dp)                              app=0.16 ref=0.16 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S7 95% CI hi vs pingouin (2 dp)                              app=0.62 ref=0.62 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S7 vs pingouin                                               app=0.5035655191 ref=0.5035655191 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,1) S7 95% CI lo vs pingouin (2 dp)                              app=0.33 ref=0.33 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S7 95% CI hi vs pingouin (2 dp)                              app=0.65 ref=0.65 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S7 vs pingouin                                               app=0.5534378118 ref=0.5534378118 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,k) S7 95% CI lo vs pingouin (2 dp)                              app=0.32 ref=0.32 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S7 95% CI hi vs pingouin (2 dp)                              app=0.71 ref=0.71 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S7 vs pingouin                                               app=0.599994704 ref=0.599994704 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,k) S7 95% CI lo vs pingouin (2 dp)                              app=0.27 ref=0.27 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S7 95% CI hi vs pingouin (2 dp)                              app=0.77 ref=0.77 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S7 vs pingouin                                               app=0.6698285012 ref=0.6698285012 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,k) S7 95% CI lo vs pingouin (2 dp)                              app=0.49 ref=0.49 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S7 95% CI hi vs pingouin (2 dp)                              app=0.78 ref=0.78 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,1) S8 vs pingouin                                               app=0.5275796968 ref=0.5275796968 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,1) S8 95% CI lo vs pingouin (2 dp)                              app=0.42 ref=0.42 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,1) S8 95% CI hi vs pingouin (2 dp)                              app=0.63 ref=0.63 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S8 vs pingouin                                               app=0.5380074281 ref=0.5380074281 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,1) S8 95% CI lo vs pingouin (2 dp)                              app=0.41 ref=0.41 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S8 95% CI hi vs pingouin (2 dp)                              app=0.66 ref=0.66 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S8 vs pingouin                                               app=0.590109353 ref=0.590109353 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,1) S8 95% CI lo vs pingouin (2 dp)                              app=0.49 ref=0.49 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S8 95% CI hi vs pingouin (2 dp)                              app=0.69 ref=0.69 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S8 vs pingouin                                               app=0.8170855488 ref=0.8170855488 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,k) S8 95% CI lo vs pingouin (2 dp)                              app=0.74 ref=0.74 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S8 95% CI hi vs pingouin (2 dp)                              app=0.87 ref=0.87 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S8 vs pingouin                                               app=0.8232637209 ref=0.8232637209 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,k) S8 95% CI lo vs pingouin (2 dp)                              app=0.73 ref=0.73 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S8 95% CI hi vs pingouin (2 dp)                              app=0.88 ref=0.88 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S8 vs pingouin                                               app=0.8520425602 ref=0.8520425602 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,k) S8 95% CI lo vs pingouin (2 dp)                              app=0.79 ref=0.79 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S8 95% CI hi vs pingouin (2 dp)                              app=0.9 ref=0.9 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,1) S9 vs pingouin                                               app=0.38258833 ref=0.38258833 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,1) S9 95% CI lo vs pingouin (2 dp)                              app=0.19 ref=0.19 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,1) S9 95% CI hi vs pingouin (2 dp)                              app=0.55 ref=0.55 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S9 vs pingouin                                               app=0.4285660245 ref=0.4285660245 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,1) S9 95% CI lo vs pingouin (2 dp)                              app=0.16 ref=0.16 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S9 95% CI hi vs pingouin (2 dp)                              app=0.62 ref=0.62 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S9 vs pingouin                                               app=0.5035655191 ref=0.5035655191 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,1) S9 95% CI lo vs pingouin (2 dp)                              app=0.33 ref=0.33 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S9 95% CI hi vs pingouin (2 dp)                              app=0.65 ref=0.65 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S9 vs pingouin                                               app=0.5534378118 ref=0.5534378118 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,k) S9 95% CI lo vs pingouin (2 dp)                              app=0.32 ref=0.32 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S9 95% CI hi vs pingouin (2 dp)                              app=0.71 ref=0.71 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S9 vs pingouin                                               app=0.599994704 ref=0.599994704 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,k) S9 95% CI lo vs pingouin (2 dp)                              app=0.27 ref=0.27 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S9 95% CI hi vs pingouin (2 dp)                              app=0.77 ref=0.77 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S9 vs pingouin                                               app=0.6698285012 ref=0.6698285012 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,k) S9 95% CI lo vs pingouin (2 dp)                              app=0.49 ref=0.49 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S9 95% CI hi vs pingouin (2 dp)                              app=0.78 ref=0.78 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,1) S10 vs pingouin                                              app=0.5275796968 ref=0.5275796968 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,1) S10 95% CI lo vs pingouin (2 dp)                             app=0.42 ref=0.42 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,1) S10 95% CI hi vs pingouin (2 dp)                             app=0.63 ref=0.63 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S10 vs pingouin                                              app=0.5380074281 ref=0.5380074281 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,1) S10 95% CI lo vs pingouin (2 dp)                             app=0.41 ref=0.41 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,1) S10 95% CI hi vs pingouin (2 dp)                             app=0.66 ref=0.66 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S10 vs pingouin                                              app=0.590109353 ref=0.590109353 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,1) S10 95% CI lo vs pingouin (2 dp)                             app=0.49 ref=0.49 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,1) S10 95% CI hi vs pingouin (2 dp)                             app=0.69 ref=0.69 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S10 vs pingouin                                              app=0.8170855488 ref=0.8170855488 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(1,k) S10 95% CI lo vs pingouin (2 dp)                             app=0.74 ref=0.74 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(1,k) S10 95% CI hi vs pingouin (2 dp)                             app=0.87 ref=0.87 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S10 vs pingouin                                              app=0.8232637209 ref=0.8232637209 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(A,k) S10 95% CI lo vs pingouin (2 dp)                             app=0.73 ref=0.73 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(A,k) S10 95% CI hi vs pingouin (2 dp)                             app=0.88 ref=0.88 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S10 vs pingouin                                              app=0.8520425602 ref=0.8520425602 diff=0.00e+00 tol=1e-10
+[PASS ] ICC(C,k) S10 95% CI lo vs pingouin (2 dp)                             app=0.79 ref=0.79 diff=0.00e+00 tol=1e-12
+[PASS ] ICC(C,k) S10 95% CI hi vs pingouin (2 dp)                             app=0.9 ref=0.9 diff=0.00e+00 tol=1e-12
+[PASS ] PA S1                                                                 app=0.7790697674 ref=0.7790697674 diff=0.00e+00 tol=1e-12
+[PASS ] PA S1 CI lower (unit-level t)                                         app=0.6895989943 ref=0.6895989943 diff=0.00e+00 tol=1e-12
+[PASS ] PA S1 CI upper (unit-level t)                                         app=0.8685405406 ref=0.8685405406 diff=0.00e+00 tol=1e-12
+[PASS ] PA S2                                                                 app=0.8062015504 ref=0.8062015504 diff=0.00e+00 tol=1e-12
+[PASS ] PA S2 CI lower (unit-level t)                                         app=0.7498057376 ref=0.7498057376 diff=0.00e+00 tol=1e-12
+[PASS ] PA S2 CI upper (unit-level t)                                         app=0.8625973632 ref=0.8625973632 diff=0.00e+00 tol=1e-12
+[PASS ] PA S3                                                                 app=0.5581395349 ref=0.5581395349 diff=0.00e+00 tol=1e-12
+[PASS ] PA S3 CI lower (unit-level t)                                         app=0.451042017 ref=0.451042017 diff=0.00e+00 tol=1e-12
+[PASS ] PA S3 CI upper (unit-level t)                                         app=0.6652370527 ref=0.6652370527 diff=0.00e+00 tol=1e-12
+[PASS ] PA S4                                                                 app=0.5794573643 ref=0.5794573643 diff=1.11e-16 tol=1e-12
+[PASS ] PA S4 CI lower (unit-level t)                                         app=0.5172682525 ref=0.5172682525 diff=1.11e-16 tol=1e-12
+[PASS ] PA S4 CI upper (unit-level t)                                         app=0.6416464761 ref=0.6416464761 diff=1.11e-16 tol=1e-12
+[PASS ] PA S5                                                                 app=0.5581395349 ref=0.5581395349 diff=0.00e+00 tol=1e-12
+[PASS ] PA S5 CI lower (unit-level t)                                         app=0.451042017 ref=0.451042017 diff=0.00e+00 tol=1e-12
+[PASS ] PA S5 CI upper (unit-level t)                                         app=0.6652370527 ref=0.6652370527 diff=0.00e+00 tol=1e-12
+[PASS ] PA S6                                                                 app=0.5794573643 ref=0.5794573643 diff=1.11e-16 tol=1e-12
+[PASS ] PA S6 CI lower (unit-level t)                                         app=0.5172682525 ref=0.5172682525 diff=1.11e-16 tol=1e-12
+[PASS ] PA S6 CI upper (unit-level t)                                         app=0.6416464761 ref=0.6416464761 diff=1.11e-16 tol=1e-12
+[PASS ] PA S7                                                                 app=0.01162790698 ref=0.01162790698 diff=0.00e+00 tol=1e-12
+[PASS ] PA S7 CI lower (unit-level t)                                         app=0 ref=0 diff=0.00e+00 tol=1e-12
+[PASS ] PA S7 CI upper (unit-level t)                                         app=0.03474730125 ref=0.03474730125 diff=0.00e+00 tol=1e-12
+[PASS ] PA S8                                                                 app=0.03682170543 ref=0.03682170543 diff=6.94e-18 tol=1e-12
+[PASS ] PA S8 CI lower (unit-level t)                                         app=0.0219099099 ref=0.0219099099 diff=6.94e-18 tol=1e-12
+[PASS ] PA S8 CI upper (unit-level t)                                         app=0.05173350096 ref=0.05173350096 diff=6.94e-18 tol=1e-12
+[PASS ] PA S9                                                                 app=0.01162790698 ref=0.01162790698 diff=0.00e+00 tol=1e-12
+[PASS ] PA S9 CI lower (unit-level t)                                         app=0 ref=0 diff=0.00e+00 tol=1e-12
+[PASS ] PA S9 CI upper (unit-level t)                                         app=0.03474730125 ref=0.03474730125 diff=0.00e+00 tol=1e-12
+[PASS ] PA S10                                                                app=0.03682170543 ref=0.03682170543 diff=6.94e-18 tol=1e-12
+[PASS ] PA S10 CI lower (unit-level t)                                        app=0.0219099099 ref=0.0219099099 diff=6.94e-18 tol=1e-12
+[PASS ] PA S10 CI upper (unit-level t)                                        app=0.05173350096 ref=0.05173350096 diff=6.94e-18 tol=1e-12
+[PASS ] Cohen kappa S1 (Cohen, 1960)                                          app=0.4134960517 ref=0.4134960517 diff=0.00e+00 tol=1e-12
+[PASS ] Cohen kappa S1 CI lower (z, general SE Eq. 8)                         app=0.1957793789 ref=0.1957793789 diff=0.00e+00 tol=1e-12
+[PASS ] Cohen kappa S1 CI upper (z, general SE Eq. 8)                         app=0.6312127244 ref=0.6312127244 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S1 (Scott, 1955)                                             app=0.4108527132 ref=0.4108527132 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S1 SE under H0 (Fleiss, Nee & Landis, 1979; k=2)             app=0.1078327732 ref=0.1078327732 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S1 general SE (Gwet, 2021; k=2)                              app=0.1131182814 ref=0.1131182814 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S1 t-interval upper (df=n-1)                                 app=0.6357621617 ref=0.6357621617 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S1 z uses the null SE                                        app=3.81009132 ref=3.81009132 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S1 (q=2)                                             app=0.5581395349 ref=0.5581395349 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S1 SE                                                app=0.08947393148 ref=0.08947393148 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S1 z-interval lower                                  app=0.3827738516 ref=0.3827738516 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S1 t-interval upper                                  app=0.7360376814 ref=0.7360376814 diff=0.00e+00 tol=1e-12
+[PASS ] Cohen kappa S3 (Cohen, 1960)                                          app=0.2089082547 ref=0.2089082547 diff=2.78e-17 tol=1e-12
+[PASS ] Cohen kappa S3 CI lower (z, general SE Eq. 8)                         app=0.02158294875 ref=0.02158294875 diff=0.00e+00 tol=1e-12
+[PASS ] Cohen kappa S3 CI upper (z, general SE Eq. 8)                         app=0.3962335606 ref=0.3962335606 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S3 (Scott, 1955)                                             app=0.2059288057 ref=0.2059288057 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S3 SE under H0 (Fleiss, Nee & Landis, 1979; k=2)             app=0.09209402279 ref=0.09209402279 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S3 general SE (Gwet, 2021; k=2)                              app=0.09702795181 ref=0.09702795181 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S3 t-interval upper (df=n-1)                                 app=0.3988463685 ref=0.3988463685 diff=0.00e+00 tol=1e-12
+[PASS ] Scott pi S3 z uses the null SE                                        app=2.236071349 ref=2.236071349 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S3 (q=5)                                             app=0.4476744186 ref=0.4476744186 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S3 SE                                                app=0.06693831149 ref=0.06693831149 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S3 z-interval lower                                  app=0.3164777389 ref=0.3164777389 diff=0.00e+00 tol=1e-12
+[PASS ] Brennan-Prediger S3 t-interval upper                                  app=0.5807657151 ref=0.5807657151 diff=0.00e+00 tol=1e-12
+[PASS ] Prevalence index S1 = |a - d| / n                                     app=0.5 ref=0.5 diff=0.00e+00 tol=1e-12
+[PASS ] Bias index S1 = (b - c) / n                                           app=-0.05813953488 ref=-0.05813953488 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S1 (Gwet, 2008; (q-1) denominator)                           app=0.6465116279 ref=0.6465116279 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S1 jackknife SE                                              app=0.08263883744 ref=0.08263883744 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S2 (Gwet, 2008; (q-1) denominator)                           app=0.704467354 ref=0.704467354 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S2 jackknife SE                                              app=0.0516576618 ref=0.0516576618 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S3 (Gwet, 2008; (q-1) denominator)                           app=0.4867385201 ref=0.4867385201 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S3 jackknife SE                                              app=0.06289624425 ref=0.06289624425 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S4 (Gwet, 2008; (q-1) denominator)                           app=0.5100004595 ref=0.5100004595 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC1 S4 jackknife SE                                              app=0.0370051283 ref=0.0370051283 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC2 [identity] S5 (Gwet, 2014)                                   app=0.4867385201 ref=0.4867385201 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC2 [linear] S5 (Gwet, 2014)                                     app=0.8054242204 ref=0.8054242204 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC2 [quadratic] S5 (Gwet, 2014)                                  app=0.9377070323 ref=0.9377070323 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC2 [radical] S5 (Gwet, 2014)                                    app=0.6743357886 ref=0.6743357886 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC2 [ordinal] S5 (Gwet, 2014)                                    app=0.9068268306 ref=0.9068268306 diff=0.00e+00 tol=1e-12
+[PASS ] Gwet AC2 [identity] S6 (Gwet, 2014)                                   app=0.5100004595 ref=0.5100004595 diff=1.11e-16 tol=1e-12
+[PASS ] Gwet AC2 [linear] S6 (Gwet, 2014)                                     app=0.8044324208 ref=0.8044324208 diff=3.33e-16 tol=1e-12
+[PASS ] Gwet AC2 [quadratic] S6 (Gwet, 2014)                                  app=0.9312208923 ref=0.9312208923 diff=2.22e-16 tol=1e-12
+[PASS ] Gwet AC2 [radical] S6 (Gwet, 2014)                                    app=0.6821229451 ref=0.6821229451 diff=3.33e-16 tol=1e-12
+[PASS ] Gwet AC2 [ordinal] S6 (Gwet, 2014)                                    app=0.901459199 ref=0.901459199 diff=6.55e-15 tol=1e-12
+[PASS ] Fleiss kappa S2 (Fleiss, 1971)                                        app=0.4370253993 ref=0.4370253993 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S2 null SE (Fleiss, Nee & Landis, 1979)                  app=0.04402254532 ref=0.04402254532 diff=6.94e-18 tol=1e-12
+[PASS ] Fleiss kappa S2 general SE (Gwet, 2021, Eqs. 4-6)                     app=0.08487875365 ref=0.08487875365 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S2 CI lower (t-basis)                                    app=0.2682636974 ref=0.2682636974 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S2 CI upper (t-basis)                                    app=0.6057871012 ref=0.6057871012 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S2 category 0 (Fleiss, 1971)                             app=0.4370253993 ref=0.4370253993 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S2 category 1 (Fleiss, 1971)                             app=0.4370253993 ref=0.4370253993 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 (Fleiss, 1971)                                        app=0.2582965701 ref=0.2582965701 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 null SE (Fleiss, Nee & Landis, 1979)                  app=0.03662683755 ref=0.03662683755 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 general SE (Gwet, 2021, Eqs. 4-6)                     app=0.05530450034 ref=0.05530450034 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 CI lower (t-basis)                                    app=0.1483364069 ref=0.1483364069 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 CI upper (t-basis)                                    app=0.3682567333 ref=0.3682567333 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 category 2 (Fleiss, 1971)                             app=-0.005847953216 ref=-0.005847953216 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 category 3 (Fleiss, 1971)                             app=0.4027777778 ref=0.4027777778 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 category 4 (Fleiss, 1971)                             app=0.1984649123 ref=0.1984649123 diff=0.00e+00 tol=1e-12
+[PASS ] Fleiss kappa S4 category 5 (Fleiss, 1971)                             app=0.2859528 ref=0.2859528 diff=0.00e+00 tol=1e-12
+[PASS ] Lin CCC S7 (Lin, 1989)                                                app=0.425704121 ref=0.425704121 diff=5.55e-17 tol=1e-12
+[PASS ] Lin CCC S7 CI lower (Fisher z, Lin 1989/2000 variance)                app=0.2685665535 ref=0.2685665535 diff=0.00e+00 tol=1e-12
+[PASS ] Lin CCC S7 CI upper                                                   app=0.5607716223 ref=0.5607716223 diff=1.11e-16 tol=1e-12
+[PASS ] Lin CCC S7 C_b = CCC / r                                              app=0.830001521 ref=0.830001521 diff=1.11e-16 tol=1e-12
+[PASS ] Lin CCC S7 location shift u                                           app=-0.6103917571 ref=-0.6103917571 diff=0.00e+00 tol=1e-12
+[PASS ] Lin CCC S7 scale shift v                                              app=1.211917081 ref=1.211917081 diff=0.00e+00 tol=1e-12
+[PASS ] Lin CCC S9 (Lin, 1989)                                                app=0.425704121 ref=0.425704121 diff=5.55e-17 tol=1e-12
+[PASS ] Lin CCC S9 CI lower (Fisher z, Lin 1989/2000 variance)                app=0.2685665535 ref=0.2685665535 diff=0.00e+00 tol=1e-12
+[PASS ] Lin CCC S9 CI upper                                                   app=0.5607716223 ref=0.5607716223 diff=1.11e-16 tol=1e-12
+[PASS ] Lin CCC S9 C_b = CCC / r                                              app=0.830001521 ref=0.830001521 diff=1.11e-16 tol=1e-12
+[PASS ] Lin CCC S9 location shift u                                           app=-0.6103917571 ref=-0.6103917571 diff=0.00e+00 tol=1e-12
+[PASS ] Lin CCC S9 scale shift v                                              app=1.211917081 ref=1.211917081 diff=0.00e+00 tol=1e-12
+[PASS ] AC2(identity) == AC1 [S5, q=5]                                        app=0.4867385201 ref=0.4867385201 diff=0.00e+00 tol=1e-12
+[PASS ] AC1 of nominal S3 == AC2(identity) of ordinal S5                      app=0.4867385201 ref=0.4867385201 diff=0.00e+00 tol=1e-12
+[PASS ] AC1 of nominal S4 == AC2(identity) of ordinal S6                      app=0.5100004595 ref=0.5100004595 diff=1.11e-16 tol=1e-12
+[PASS ] Cohen kappa of nominal S3 == unweighted kappa of ordinal S5           app=0.2089082547 ref=0.2089082547 diff=0.00e+00 tol=1e-12
+[PASS ] Krippendorff bootstrap CI reproducible (fixed seed)                   (0.3513431337506504, (0.2291578619916844, 0.4628936647529745))
+[PASS ] PA: interval widens 90% < 95% < 99%                                   0.1497 < 0.1789 < 0.2371
+[PASS ] AC1: interval widens 90% < 95% < 99%                                  0.2719 < 0.3239 < 0.4257
+[PASS ] Krippendorff alpha: interval widens 90% < 95% < 99%                   0.3634 < 0.4328 < 0.5206
+[PASS ] ICC(A,1): interval widens 90% < 95% < 99%                             0.3919 < 0.4658 < 0.6074
+[PASS ] Lin CCC: interval widens 90% < 95% < 99%                              0.2456 < 0.2922 < 0.3826
+[PASS ] dispatcher: dichotomous, 2 raters                                     ['pct', 'cohen', 'gwet_ac1', 'scott_pi', 'bp', 'krippendorff']
+[PASS ] dispatcher: nominal, 2 raters                                         ['pct', 'cohen', 'gwet_ac1', 'scott_pi', 'bp', 'krippendorff']
+[PASS ] dispatcher: ordinal, 2 raters                                         ['pct', 'weighted', 'gwet_ac2', 'krippendorff']
+[PASS ] dispatcher: interval, 2 raters                                        ['pct', 'icc', 'ccc', 'krippendorff']
+[PASS ] dispatcher: ratio, 2 raters                                           ['pct', 'icc', 'ccc', 'krippendorff']
+[PASS ] dispatcher: dichotomous, 3 raters                                     ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher: dichotomous, 4 raters                                     ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher: dichotomous, 10 raters                                    ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher: nominal, 3 raters                                         ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher: nominal, 4 raters                                         ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher: nominal, 10 raters                                        ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher: ordinal, 3 raters                                         ['pct', 'gwet_ac2', 'krippendorff']
+[PASS ] dispatcher: ordinal, 4 raters                                         ['pct', 'gwet_ac2', 'krippendorff']
+[PASS ] dispatcher: ordinal, 10 raters                                        ['pct', 'gwet_ac2', 'krippendorff']
+[PASS ] dispatcher: interval, 3 raters                                        ['pct', 'icc', 'krippendorff']
+[PASS ] dispatcher: interval, 4 raters                                        ['pct', 'icc', 'krippendorff']
+[PASS ] dispatcher: interval, 10 raters                                       ['pct', 'icc', 'krippendorff']
+[PASS ] dispatcher: ratio, 3 raters                                           ['pct', 'icc', 'krippendorff']
+[PASS ] dispatcher: ratio, 4 raters                                           ['pct', 'icc', 'krippendorff']
+[PASS ] dispatcher: ratio, 10 raters                                          ['pct', 'icc', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S1                                 ['pct', 'cohen', 'gwet_ac1', 'scott_pi', 'bp', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S2                                 ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S3                                 ['pct', 'cohen', 'gwet_ac1', 'scott_pi', 'bp', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S4                                 ['pct', 'fleiss', 'gwet_ac1', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S5                                 ['pct', 'weighted', 'gwet_ac2', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S6                                 ['pct', 'gwet_ac2', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S7                                 ['pct', 'icc', 'ccc', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S8                                 ['pct', 'icc', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S9                                 ['pct', 'icc', 'ccc', 'krippendorff']
+[PASS ] dispatcher used by run_multi_irar: S10                                ['pct', 'icc', 'krippendorff']
+[PASS ] S7 == S9: icc_1_1 and its interval                                    
+[PASS ] S7 == S9: icc_2_1 and its interval                                    
+[PASS ] S7 == S9: icc_3_1 and its interval                                    
+[PASS ] S7 == S9: icc_1_k and its interval                                    
+[PASS ] S7 == S9: icc_2_k and its interval                                    
+[PASS ] S7 == S9: icc_3_k and its interval                                    
+[PASS ] S7 == S9: percentage agreement                                        
+[PASS ] S7 != S9: Krippendorff alpha differs (interval vs ratio metric)       0.381204 vs 0.365987
+[PASS ] S8 == S10: icc_1_1 and its interval                                   
+[PASS ] S8 == S10: icc_2_1 and its interval                                   
+[PASS ] S8 == S10: icc_3_1 and its interval                                   
+[PASS ] S8 == S10: icc_1_k and its interval                                   
+[PASS ] S8 == S10: icc_2_k and its interval                                   
+[PASS ] S8 == S10: icc_3_k and its interval                                   
+[PASS ] S8 == S10: percentage agreement                                       
+[PASS ] S8 != S10: Krippendorff alpha differs (interval vs ratio metric)      0.525390 vs 0.514966
+[PASS ] S7 == S9: Lin CCC and its interval                                    
+[PASS ] declaration check: non-integer codes -> error                         Categorical data types require integer category codes; non-integer values were found in the selected columns.
+[PASS ] declaration check: three codes declared dichotomous -> error          Dichotomous data have two categories, but 3 distinct codes were found in the selected columns.
+[PASS ] declaration check: more codes than declared q -> error                4 distinct codes were found, more than the 3 categories declared for this group.
+[PASS ] declaration check: code outside the declared ordinal scale -> error   Ratings outside the declared scale 1–5 were found in the selected columns.
+[PASS ] [published] FCE 1969 kappa = .429                                     app=0.4285714286 ref=0.429 diff=4.29e-04 tol=5e-04
+[PASS ] [published] FCE 1969 general variance = .002885                       app=0.002884872044 ref=0.002885 diff=1.28e-07 tol=5e-07
+[PASS ] [published] FCE 1969 null variance = .003082                          app=0.003081632653 ref=0.003082 diff=3.67e-07 tol=5e-07
+[PASS ] [published] FCE 1969 weighted p_o = .787                              app=0.7866666667 ref=0.787 diff=3.33e-04 tol=5e-04
+[PASS ] [published] FCE 1969 weighted p_e = .567                              app=0.5672222222 ref=0.567 diff=2.22e-04 tol=5e-04
+[PASS ] [published data; irr 0.85] Fleiss 1971 data kappa = .430              app=0.4302445201 ref=0.43 diff=2.45e-04 tol=5e-04
+[PASS ] [published data; irr 0.85] Fleiss 1971 data category 1 kappa = 0.245  app=0.2447552448 ref=0.245 diff=2.45e-04 tol=5e-04
+[PASS ] [published data; irr 0.85] Fleiss 1971 data category 2 kappa = 0.245  app=0.2447552448 ref=0.245 diff=2.45e-04 tol=5e-04
+[PASS ] [published data; irr 0.85] Fleiss 1971 data category 3 kappa = 0.520  app=0.52 ref=0.52 diff=0.00e+00 tol=5e-04
+[PASS ] [published data; irr 0.85] Fleiss 1971 data category 4 kappa = 0.471  app=0.4711272727 ref=0.471 diff=1.27e-04 tol=5e-04
+[PASS ] [published data; irr 0.85] Fleiss 1971 data category 5 kappa = 0.566  app=0.5661178068 ref=0.566 diff=1.18e-04 tol=5e-04
+[PASS ] [published] Shrout & Fleiss 1979 ICC(1,1) = 0.17                      app=0.1657417684 ref=0.17 diff=4.26e-03 tol=5e-03
+[PASS ] [published] Shrout & Fleiss 1979 ICC(2,1) = 0.29                      app=0.2897637795 ref=0.29 diff=2.36e-04 tol=5e-03
+[PASS ] [published] Shrout & Fleiss 1979 ICC(3,1) = 0.71                      app=0.7148407148 ref=0.71 diff=4.84e-03 tol=5e-03
+[PASS ] [published] Shrout & Fleiss 1979 ICC(1,4) = 0.44                      app=0.4427971337 ref=0.44 diff=2.80e-03 tol=5e-03
+[PASS ] [published] Shrout & Fleiss 1979 ICC(2,4) = 0.62                      app=0.6200505476 ref=0.62 diff=5.05e-05 tol=5e-03
+[PASS ] [published] Shrout & Fleiss 1979 ICC(3,4) = 0.91                      app=0.9093155424 ref=0.91 diff=6.84e-04 tol=5e-03
+[PASS ] [published] Krippendorff 2011 alpha (nominal) = 0.743                 app=0.7434210526 ref=0.743 diff=4.21e-04 tol=5e-04
+[PASS ] [published] Krippendorff 2011 alpha (ordinal) = 0.815                 app=0.8153875038 ref=0.815 diff=3.88e-04 tol=5e-04
+[PASS ] [published] Krippendorff 2011 alpha (interval) = 0.849                app=0.8491071429 ref=0.849 diff=1.07e-04 tol=5e-04
+[PASS ] [published] Krippendorff 2011 alpha (ratio) = 0.797                   app=0.7974027747 ref=0.797 diff=4.03e-04 tol=5e-04
+[PASS ] [reported] S1 percentage_agreement.pa                                 app=0.7790697674 ref=0.779 diff=6.98e-05 tol=5e-04
+[PASS ] [reported] S1 cohen_kappa.kappa                                       app=0.4134960517 ref=0.413 diff=4.96e-04 tol=5e-04
+[PASS ] [reported] S1 scott_pi.pi                                             app=0.4108527132 ref=0.411 diff=1.47e-04 tol=5e-04
+[PASS ] [reported] S1 brennan_prediger.kappa_bp                               app=0.5581395349 ref=0.558 diff=1.40e-04 tol=5e-04
+[PASS ] [reported] S1 gwet_ac1.ac1                                            app=0.6465116279 ref=0.647 diff=4.88e-04 tol=5e-04
+[PASS ] [reported] S1 krippendorff.alpha                                      app=0.4142779881 ref=0.414 diff=2.78e-04 tol=5e-04
+[PASS ] [reported] S2 percentage_agreement.pa                                 app=0.8062015504 ref=0.806 diff=2.02e-04 tol=5e-04
+[PASS ] [reported] S2 fleiss_kappa.kappa                                      app=0.4370253993 ref=0.437 diff=2.54e-05 tol=5e-04
+[PASS ] [reported] S2 gwet_ac1.ac1                                            app=0.704467354 ref=0.704 diff=4.67e-04 tol=5e-04
+[PASS ] [reported] S2 krippendorff.alpha                                      app=0.4386619534 ref=0.439 diff=3.38e-04 tol=5e-04
+[PASS ] [reported] S3 percentage_agreement.pa                                 app=0.5581395349 ref=0.558 diff=1.40e-04 tol=5e-04
+[PASS ] [reported] S3 cohen_kappa.kappa                                       app=0.2089082547 ref=0.209 diff=9.17e-05 tol=5e-04
+[PASS ] [reported] S3 scott_pi.pi                                             app=0.2059288057 ref=0.206 diff=7.12e-05 tol=5e-04
+[PASS ] [reported] S3 brennan_prediger.kappa_bp                               app=0.4476744186 ref=0.448 diff=3.26e-04 tol=5e-04
+[PASS ] [reported] S3 gwet_ac1.ac1                                            app=0.4867385201 ref=0.487 diff=2.61e-04 tol=5e-04
+[PASS ] [reported] S3 krippendorff.alpha                                      app=0.2105454987 ref=0.211 diff=4.55e-04 tol=5e-04
+[PASS ] [reported] S4 percentage_agreement.pa                                 app=0.5794573643 ref=0.579 diff=4.57e-04 tol=5e-04
+[PASS ] [reported] S4 fleiss_kappa.kappa                                      app=0.2582965701 ref=0.258 diff=2.97e-04 tol=5e-04
+[PASS ] [reported] S4 gwet_ac1.ac1                                            app=0.5100004595 ref=0.51 diff=4.59e-07 tol=5e-04
+[PASS ] [reported] S4 krippendorff.alpha                                      app=0.2604526847 ref=0.26 diff=4.53e-04 tol=5e-04
+[PASS ] [reported] S5 percentage_agreement.pa                                 app=0.5581395349 ref=0.558 diff=1.40e-04 tol=5e-04
+[PASS ] [reported] S5 weighted_kappa.kappa_linear                             app=0.2651183173 ref=0.265 diff=1.18e-04 tol=5e-04
+[PASS ] [reported] S5 weighted_kappa.kappa_quadratic                          app=0.3506445672 ref=0.351 diff=3.55e-04 tol=5e-04
+[PASS ] [reported] S5 krippendorff.alpha                                      app=0.3161762142 ref=0.316 diff=1.76e-04 tol=5e-04
+[PASS ] [reported] S6 percentage_agreement.pa                                 app=0.5794573643 ref=0.579 diff=4.57e-04 tol=5e-04
+[PASS ] [reported] S6 krippendorff.alpha                                      app=0.3513431338 ref=0.351 diff=3.43e-04 tol=5e-04
+[PASS ] [reported] S7 icc.icc_1_1                                             app=0.38258833 ref=0.383 diff=4.12e-04 tol=5e-04
+[PASS ] [reported] S7 icc.icc_2_1                                             app=0.4285660245 ref=0.429 diff=4.34e-04 tol=5e-04
+[PASS ] [reported] S7 icc.icc_3_1                                             app=0.5035655191 ref=0.504 diff=4.34e-04 tol=5e-04
+[PASS ] [reported] S7 icc.icc_1_k                                             app=0.5534378118 ref=0.553 diff=4.38e-04 tol=5e-04
+[PASS ] [reported] S7 icc.icc_2_k                                             app=0.599994704 ref=0.6 diff=5.30e-06 tol=5e-04
+[PASS ] [reported] S7 icc.icc_3_k                                             app=0.6698285012 ref=0.67 diff=1.71e-04 tol=5e-04
+[PASS ] [reported] S7 percentage_agreement.pa                                 app=0.01162790698 ref=0.012 diff=3.72e-04 tol=5e-04
+[PASS ] [reported] S7 lin_ccc.ccc                                             app=0.425704121 ref=0.426 diff=2.96e-04 tol=5e-04
+[PASS ] [reported] S7 krippendorff.alpha                                      app=0.3812038611 ref=0.381 diff=2.04e-04 tol=5e-04
+[PASS ] [reported] S8 icc.icc_1_1                                             app=0.5275796968 ref=0.528 diff=4.20e-04 tol=5e-04
+[PASS ] [reported] S8 icc.icc_2_1                                             app=0.5380074281 ref=0.538 diff=7.43e-06 tol=5e-04
+[PASS ] [reported] S8 icc.icc_3_1                                             app=0.590109353 ref=0.59 diff=1.09e-04 tol=5e-04
+[PASS ] [reported] S8 icc.icc_1_k                                             app=0.8170855488 ref=0.817 diff=8.55e-05 tol=5e-04
+[PASS ] [reported] S8 icc.icc_2_k                                             app=0.8232637209 ref=0.823 diff=2.64e-04 tol=5e-04
+[PASS ] [reported] S8 icc.icc_3_k                                             app=0.8520425602 ref=0.852 diff=4.26e-05 tol=5e-04
+[PASS ] [reported] S8 percentage_agreement.pa                                 app=0.03682170543 ref=0.037 diff=1.78e-04 tol=5e-04
+[PASS ] [reported] S8 krippendorff.alpha                                      app=0.5253896549 ref=0.525 diff=3.90e-04 tol=5e-04
+[PASS ] [reported] S9 icc.icc_1_1                                             app=0.38258833 ref=0.383 diff=4.12e-04 tol=5e-04
+[PASS ] [reported] S9 icc.icc_2_1                                             app=0.4285660245 ref=0.429 diff=4.34e-04 tol=5e-04
+[PASS ] [reported] S9 icc.icc_3_1                                             app=0.5035655191 ref=0.504 diff=4.34e-04 tol=5e-04
+[PASS ] [reported] S9 icc.icc_1_k                                             app=0.5534378118 ref=0.553 diff=4.38e-04 tol=5e-04
+[PASS ] [reported] S9 icc.icc_2_k                                             app=0.599994704 ref=0.6 diff=5.30e-06 tol=5e-04
+[PASS ] [reported] S9 icc.icc_3_k                                             app=0.6698285012 ref=0.67 diff=1.71e-04 tol=5e-04
+[PASS ] [reported] S9 percentage_agreement.pa                                 app=0.01162790698 ref=0.012 diff=3.72e-04 tol=5e-04
+[PASS ] [reported] S9 lin_ccc.ccc                                             app=0.425704121 ref=0.426 diff=2.96e-04 tol=5e-04
+[PASS ] [reported] S9 krippendorff.alpha                                      app=0.365986666 ref=0.366 diff=1.33e-05 tol=5e-04
+[PASS ] [reported] S10 icc.icc_1_1                                            app=0.5275796968 ref=0.528 diff=4.20e-04 tol=5e-04
+[PASS ] [reported] S10 icc.icc_2_1                                            app=0.5380074281 ref=0.538 diff=7.43e-06 tol=5e-04
+[PASS ] [reported] S10 icc.icc_3_1                                            app=0.590109353 ref=0.59 diff=1.09e-04 tol=5e-04
+[PASS ] [reported] S10 icc.icc_1_k                                            app=0.8170855488 ref=0.817 diff=8.55e-05 tol=5e-04
+[PASS ] [reported] S10 icc.icc_2_k                                            app=0.8232637209 ref=0.823 diff=2.64e-04 tol=5e-04
+[PASS ] [reported] S10 icc.icc_3_k                                            app=0.8520425602 ref=0.852 diff=4.26e-05 tol=5e-04
+[PASS ] [reported] S10 percentage_agreement.pa                                app=0.03682170543 ref=0.037 diff=1.78e-04 tol=5e-04
+[PASS ] [reported] S10 krippendorff.alpha                                     app=0.5149663875 ref=0.515 diff=3.36e-05 tol=5e-04
+[PASS ] [reported] S5 AC2 identity                                            app=0.4867385201 ref=0.487 diff=2.61e-04 tol=5e-04
+[PASS ] [reported] S5 AC2 linear                                              app=0.8054242204 ref=0.805 diff=4.24e-04 tol=5e-04
+[PASS ] [reported] S5 AC2 quadratic                                           app=0.9377070323 ref=0.938 diff=2.93e-04 tol=5e-04
+[PASS ] [reported] S5 AC2 radical                                             app=0.6743357886 ref=0.674 diff=3.36e-04 tol=5e-04
+[PASS ] [reported] S5 AC2 ordinal                                             app=0.9068268306 ref=0.907 diff=1.73e-04 tol=5e-04
+[PASS ] [reported] S6 AC2 identity                                            app=0.5100004595 ref=0.51 diff=4.59e-07 tol=5e-04
+[PASS ] [reported] S6 AC2 linear                                              app=0.8044324208 ref=0.804 diff=4.32e-04 tol=5e-04
+[PASS ] [reported] S6 AC2 quadratic                                           app=0.9312208923 ref=0.931 diff=2.21e-04 tol=5e-04
+[PASS ] [reported] S6 AC2 radical                                             app=0.6821229451 ref=0.682 diff=1.23e-04 tol=5e-04
+[PASS ] [reported] S6 AC2 ordinal                                             app=0.901459199 ref=0.901 diff=4.59e-04 tol=5e-04
+--------------------------------------------------------------------------------
+360 passed, 0 failed, 0 errored, 0 skipped (of 360 checks)
+RESULT: PASS

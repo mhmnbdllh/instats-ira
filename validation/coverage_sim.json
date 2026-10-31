@@ -1,0 +1,810 @@
+{
+ "R": 1000,
+ "seed": 20261026,
+ "n_boot": 1000,
+ "alpha": 0.05,
+ "seconds": 1666.3962965011597,
+ "summary": {
+  "S1": {
+   "Percentage agreement": {
+    "pop": 0.7790697674418605,
+    "n_rep": 1000,
+    "mean_est": 0.7805348837209303,
+    "sd_est": 0.04422671107789717,
+    "n_interval": 1000,
+    "cover_main": 0.945,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Cohen's kappa": {
+    "pop": 0.41349605168700654,
+    "n_rep": 1000,
+    "mean_est": 0.41179633920042724,
+    "sd_est": 0.10933445533459277,
+    "n_interval": 1000,
+    "cover_main": 0.949,
+    "cover_t": 0.951,
+    "se_ratio": 1.0037369843941055,
+    "se0_ratio": 0.966477076050438
+   },
+   "Scott's pi": {
+    "pop": 0.4108527131782947,
+    "n_rep": 1000,
+    "mean_est": 0.4071938082637687,
+    "sd_est": 0.11120880057219096,
+    "n_interval": 1000,
+    "cover_main": 0.95,
+    "cover_t": 0.954,
+    "se_ratio": 1.0129159549656874,
+    "se0_ratio": 0.9696424442006185
+   },
+   "Brennan-Prediger": {
+    "pop": 0.558139534883721,
+    "n_rep": 1000,
+    "mean_est": 0.5610697674418604,
+    "sd_est": 0.08845342215579434,
+    "n_interval": 1000,
+    "cover_main": 0.945,
+    "cover_t": 0.945,
+    "se_ratio": 1.0006143960190887,
+    "se0_ratio": null
+   },
+   "Gwet's AC1": {
+    "pop": 0.6465116279069768,
+    "n_rep": 1000,
+    "mean_est": 0.6477400004560089,
+    "sd_est": 0.08183422314735847,
+    "n_interval": 1000,
+    "cover_main": 0.937,
+    "cover_t": 0.939,
+    "se_ratio": 0.9959014342432155,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.4142779881016766,
+    "n_rep": 1000,
+    "mean_est": 0.41064035589014214,
+    "sd_est": 0.11056223777816661,
+    "n_interval": 1000,
+    "cover_main": 0.962,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S2": {
+   "Percentage agreement": {
+    "pop": 0.8062015503875969,
+    "n_rep": 1000,
+    "mean_est": 0.8061317829457364,
+    "sd_est": 0.028114214585988062,
+    "n_interval": 1000,
+    "cover_main": 0.95,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Fleiss' kappa": {
+    "pop": 0.4370253993191935,
+    "n_rep": 1000,
+    "mean_est": 0.4287140185451829,
+    "sd_est": 0.08637868712629869,
+    "n_interval": 1000,
+    "cover_main": 0.939,
+    "cover_t": 0.942,
+    "se_ratio": 0.9758649923449236,
+    "se0_ratio": 0.5096459182334363
+   },
+   "Gwet's AC1": {
+    "pop": 0.70446735395189,
+    "n_rep": 1000,
+    "mean_est": 0.7037423159433704,
+    "sd_est": 0.05111697308088186,
+    "n_interval": 1000,
+    "cover_main": 0.949,
+    "cover_t": 0.951,
+    "se_ratio": 1.0022623519183773,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.4386619533909403,
+    "n_rep": 1000,
+    "mean_est": 0.43037473360755174,
+    "sd_est": 0.08612758629162919,
+    "n_interval": 1000,
+    "cover_main": 0.941,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S3": {
+   "Percentage agreement": {
+    "pop": 0.5581395348837209,
+    "n_rep": 1000,
+    "mean_est": 0.5571162790697676,
+    "sd_est": 0.05422396367986658,
+    "n_interval": 1000,
+    "cover_main": 0.943,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Cohen's kappa": {
+    "pop": 0.2089082546598886,
+    "n_rep": 1000,
+    "mean_est": 0.20503762012616,
+    "sd_est": 0.09665125369163648,
+    "n_interval": 1000,
+    "cover_main": 0.942,
+    "cover_t": 0.948,
+    "se_ratio": 0.9737240923907078,
+    "se0_ratio": 0.9376627272348519
+   },
+   "Scott's pi": {
+    "pop": 0.20592880573441869,
+    "n_rep": 1000,
+    "mean_est": 0.1980962811260256,
+    "sd_est": 0.09858957519308434,
+    "n_interval": 1000,
+    "cover_main": 0.942,
+    "cover_t": 0.947,
+    "se_ratio": 0.9803621818150254,
+    "se0_ratio": 0.9383705392241597
+   },
+   "Brennan-Prediger": {
+    "pop": 0.4476744186046511,
+    "n_rep": 1000,
+    "mean_est": 0.4463953488372092,
+    "sd_est": 0.06777995459983323,
+    "n_interval": 1000,
+    "cover_main": 0.943,
+    "cover_t": 0.943,
+    "se_ratio": 0.9818085792933319,
+    "se0_ratio": null
+   },
+   "Gwet's AC1": {
+    "pop": 0.4867385201327129,
+    "n_rep": 1000,
+    "mean_est": 0.4860705893752506,
+    "sd_est": 0.06329382180801568,
+    "n_interval": 1000,
+    "cover_main": 0.939,
+    "cover_t": 0.945,
+    "se_ratio": 0.9881213433427697,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.2105454987243348,
+    "n_rep": 1000,
+    "mean_est": 0.20275851204971146,
+    "sd_est": 0.09801637998847337,
+    "n_interval": 1000,
+    "cover_main": 0.936,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S4": {
+   "Percentage agreement": {
+    "pop": 0.5794573643410853,
+    "n_rep": 1000,
+    "mean_est": 0.5781918604651163,
+    "sd_est": 0.031167420439419165,
+    "n_interval": 1000,
+    "cover_main": 0.942,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Fleiss' kappa": {
+    "pop": 0.25829657008862944,
+    "n_rep": 1000,
+    "mean_est": 0.25082711111896006,
+    "sd_est": 0.054642889076015215,
+    "n_interval": 1000,
+    "cover_main": 0.937,
+    "cover_t": 0.939,
+    "se_ratio": 0.9987465918344545,
+    "se0_ratio": 0.6736981185836886
+   },
+   "Gwet's AC1": {
+    "pop": 0.5100004594894417,
+    "n_rep": 1000,
+    "mean_est": 0.5089942905787564,
+    "sd_est": 0.03700592029602537,
+    "n_interval": 1000,
+    "cover_main": 0.941,
+    "cover_t": 0.943,
+    "se_ratio": 0.9909071870016346,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.26045268471046434,
+    "n_rep": 1000,
+    "mean_est": 0.2530049392843116,
+    "sd_est": 0.05448404346823616,
+    "n_interval": 1000,
+    "cover_main": 0.932,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S5": {
+   "Percentage agreement": {
+    "pop": 0.5581395348837209,
+    "n_rep": 1000,
+    "mean_est": 0.5571162790697676,
+    "sd_est": 0.05422396367986658,
+    "n_interval": 1000,
+    "cover_main": 0.943,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Weighted kappa, unweighted": {
+    "pop": 0.2089082546598886,
+    "n_rep": 1000,
+    "mean_est": 0.20503762012616,
+    "sd_est": 0.09665125369163648,
+    "n_interval": 1000,
+    "cover_main": 0.942,
+    "cover_t": 0.948,
+    "se_ratio": 0.9737240923907078,
+    "se0_ratio": 0.9376627272348519
+   },
+   "Weighted kappa, linear": {
+    "pop": 0.26511831726555646,
+    "n_rep": 1000,
+    "mean_est": 0.25981698093704925,
+    "sd_est": 0.09450674195239095,
+    "n_interval": 1000,
+    "cover_main": 0.934,
+    "cover_t": 0.939,
+    "se_ratio": 0.9658156756656092,
+    "se0_ratio": 0.9343570567540175
+   },
+   "Weighted kappa, quadratic": {
+    "pop": 0.35064456721915294,
+    "n_rep": 1000,
+    "mean_est": 0.3424530826422724,
+    "sd_est": 0.10015804164717877,
+    "n_interval": 1000,
+    "cover_main": 0.928,
+    "cover_t": 0.934,
+    "se_ratio": 0.9475830758058124,
+    "se0_ratio": 1.0353004003703041
+   },
+   "Gwet's AC2, quadratic": {
+    "pop": 0.9377070322506559,
+    "n_rep": 1000,
+    "mean_est": 0.9379624862130044,
+    "sd_est": 0.00953089367420112,
+    "n_interval": 1000,
+    "cover_main": 0.923,
+    "cover_t": 0.926,
+    "se_ratio": 0.9761459608307048,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, linear": {
+    "pop": 0.8054242204496012,
+    "n_rep": 1000,
+    "mean_est": 0.8058230437551852,
+    "sd_est": 0.02538205423666879,
+    "n_interval": 1000,
+    "cover_main": 0.942,
+    "cover_t": 0.948,
+    "se_ratio": 0.9894601774136735,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, radical": {
+    "pop": 0.6743357885848672,
+    "n_rep": 1000,
+    "mean_est": 0.674517242513243,
+    "sd_est": 0.040935141253156476,
+    "n_interval": 1000,
+    "cover_main": 0.941,
+    "cover_t": 0.948,
+    "se_ratio": 0.9892323620172054,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, ordinal": {
+    "pop": 0.9068268306225541,
+    "n_rep": 1000,
+    "mean_est": 0.907158313767063,
+    "sd_est": 0.0131664692777807,
+    "n_interval": 1000,
+    "cover_main": 0.937,
+    "cover_t": 0.938,
+    "se_ratio": 0.9854019112806882,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, identity": {
+    "pop": 0.4867385201327129,
+    "n_rep": 1000,
+    "mean_est": 0.4860705893752506,
+    "sd_est": 0.06329382180801568,
+    "n_interval": 1000,
+    "cover_main": 0.939,
+    "cover_t": 0.945,
+    "se_ratio": 0.9881213433427697,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.3161762142184722,
+    "n_rep": 1000,
+    "mean_est": 0.3077755938707254,
+    "sd_est": 0.10294527880331632,
+    "n_interval": 1000,
+    "cover_main": 0.931,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S6": {
+   "Percentage agreement": {
+    "pop": 0.5794573643410853,
+    "n_rep": 1000,
+    "mean_est": 0.5781918604651163,
+    "sd_est": 0.031167420439419165,
+    "n_interval": 1000,
+    "cover_main": 0.942,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, quadratic": {
+    "pop": 0.931220892300384,
+    "n_rep": 1000,
+    "mean_est": 0.9315058573872455,
+    "sd_est": 0.009770794334653348,
+    "n_interval": 1000,
+    "cover_main": 0.913,
+    "cover_t": 0.915,
+    "se_ratio": 0.9506759425371137,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, linear": {
+    "pop": 0.8044324207761147,
+    "n_rep": 1000,
+    "mean_est": 0.8047467377447464,
+    "sd_est": 0.018750712303062512,
+    "n_interval": 1000,
+    "cover_main": 0.933,
+    "cover_t": 0.939,
+    "se_ratio": 0.9723779634016417,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, radical": {
+    "pop": 0.6821229450653629,
+    "n_rep": 1000,
+    "mean_est": 0.6821039111059264,
+    "sd_est": 0.02643801336000221,
+    "n_interval": 1000,
+    "cover_main": 0.94,
+    "cover_t": 0.947,
+    "se_ratio": 0.9822922391351895,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, ordinal": {
+    "pop": 0.9014591990281146,
+    "n_rep": 1000,
+    "mean_est": 0.9017897372072448,
+    "sd_est": 0.011901672753988122,
+    "n_interval": 1000,
+    "cover_main": 0.92,
+    "cover_t": 0.921,
+    "se_ratio": 0.9590270107043062,
+    "se0_ratio": null
+   },
+   "Gwet's AC2, identity": {
+    "pop": 0.5100004594894416,
+    "n_rep": 1000,
+    "mean_est": 0.5089942905787564,
+    "sd_est": 0.03700592029602537,
+    "n_interval": 1000,
+    "cover_main": 0.941,
+    "cover_t": 0.943,
+    "se_ratio": 0.9909071870016346,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.3513431337506504,
+    "n_rep": 1000,
+    "mean_est": 0.34417903149198537,
+    "sd_est": 0.061708608214688605,
+    "n_interval": 1000,
+    "cover_main": 0.939,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S7": {
+   "Percentage agreement": {
+    "pop": 0.011627906976744186,
+    "n_rep": 1000,
+    "mean_est": 0.011674418604651161,
+    "sd_est": 0.01148139652033617,
+    "n_interval": 1000,
+    "cover_main": 0.635,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,1)": {
+    "pop": 0.38258833001215337,
+    "n_rep": 1000,
+    "mean_est": 0.3786765956084245,
+    "sd_est": 0.08486911334577066,
+    "n_interval": 1000,
+    "cover_main": 0.97,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,1)": {
+    "pop": 0.42856602451138864,
+    "n_rep": 1000,
+    "mean_est": 0.4273872027070254,
+    "sd_est": 0.07101366528387973,
+    "n_interval": 1000,
+    "cover_main": 0.996,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,1)": {
+    "pop": 0.5035655190864085,
+    "n_rep": 1000,
+    "mean_est": 0.5044183647748086,
+    "sd_est": 0.07719089996856894,
+    "n_interval": 1000,
+    "cover_main": 0.957,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,k)": {
+    "pop": 0.5534378118304967,
+    "n_rep": 1000,
+    "mean_est": 0.5437228126794758,
+    "sd_est": 0.09157923246236407,
+    "n_interval": 1000,
+    "cover_main": 0.97,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,k)": {
+    "pop": 0.5999947040011269,
+    "n_rep": 1000,
+    "mean_est": 0.5953321325374513,
+    "sd_est": 0.07071476387264346,
+    "n_interval": 1000,
+    "cover_main": 0.996,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,k)": {
+    "pop": 0.6698285012446724,
+    "n_rep": 1000,
+    "mean_est": 0.6670237441155573,
+    "sd_est": 0.06961627120095225,
+    "n_interval": 1000,
+    "cover_main": 0.957,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Lin's CCC": {
+    "pop": 0.42570412100260757,
+    "n_rep": 1000,
+    "mean_est": 0.42458608921576374,
+    "sd_est": 0.07088520795568402,
+    "n_interval": 1000,
+    "cover_main": 0.954,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.38120386111511306,
+    "n_rep": 1000,
+    "mean_est": 0.37733974073872356,
+    "sd_est": 0.08474081673780562,
+    "n_interval": 1000,
+    "cover_main": 0.946,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S8": {
+   "Percentage agreement": {
+    "pop": 0.03682170542635659,
+    "n_rep": 1000,
+    "mean_est": 0.03693410852713178,
+    "sd_est": 0.007443320721202001,
+    "n_interval": 1000,
+    "cover_main": 0.94,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,1)": {
+    "pop": 0.5275796967538223,
+    "n_rep": 1000,
+    "mean_est": 0.522648030664415,
+    "sd_est": 0.0557099596173327,
+    "n_interval": 1000,
+    "cover_main": 0.944,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,1)": {
+    "pop": 0.5380074280843044,
+    "n_rep": 1000,
+    "mean_est": 0.5339749152944874,
+    "sd_est": 0.05231918418194058,
+    "n_interval": 1000,
+    "cover_main": 0.985,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,1)": {
+    "pop": 0.5901093529683588,
+    "n_rep": 1000,
+    "mean_est": 0.588204654195203,
+    "sd_est": 0.049834032179903044,
+    "n_interval": 1000,
+    "cover_main": 0.959,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,k)": {
+    "pop": 0.8170855488161789,
+    "n_rep": 1000,
+    "mean_est": 0.8118367954066683,
+    "sd_est": 0.035150202322661424,
+    "n_interval": 1000,
+    "cover_main": 0.944,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,k)": {
+    "pop": 0.8232637209335295,
+    "n_rep": 1000,
+    "mean_est": 0.8189754468406896,
+    "sd_est": 0.031933523224290904,
+    "n_interval": 1000,
+    "cover_main": 0.985,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,k)": {
+    "pop": 0.8520425601891917,
+    "n_rep": 1000,
+    "mean_est": 0.8496013376545379,
+    "sd_est": 0.026864749791652674,
+    "n_interval": 1000,
+    "cover_main": 0.959,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.5253896549293742,
+    "n_rep": 1000,
+    "mean_est": 0.5204831559232111,
+    "sd_est": 0.055722421619637225,
+    "n_interval": 1000,
+    "cover_main": 0.93,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S9": {
+   "Percentage agreement": {
+    "pop": 0.011627906976744186,
+    "n_rep": 1000,
+    "mean_est": 0.011674418604651161,
+    "sd_est": 0.01148139652033617,
+    "n_interval": 1000,
+    "cover_main": 0.635,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,1)": {
+    "pop": 0.38258833001215337,
+    "n_rep": 1000,
+    "mean_est": 0.3786765956084245,
+    "sd_est": 0.08486911334577066,
+    "n_interval": 1000,
+    "cover_main": 0.97,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,1)": {
+    "pop": 0.42856602451138864,
+    "n_rep": 1000,
+    "mean_est": 0.4273872027070254,
+    "sd_est": 0.07101366528387973,
+    "n_interval": 1000,
+    "cover_main": 0.996,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,1)": {
+    "pop": 0.5035655190864085,
+    "n_rep": 1000,
+    "mean_est": 0.5044183647748086,
+    "sd_est": 0.07719089996856894,
+    "n_interval": 1000,
+    "cover_main": 0.957,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,k)": {
+    "pop": 0.5534378118304967,
+    "n_rep": 1000,
+    "mean_est": 0.5437228126794758,
+    "sd_est": 0.09157923246236407,
+    "n_interval": 1000,
+    "cover_main": 0.97,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,k)": {
+    "pop": 0.5999947040011269,
+    "n_rep": 1000,
+    "mean_est": 0.5953321325374513,
+    "sd_est": 0.07071476387264346,
+    "n_interval": 1000,
+    "cover_main": 0.996,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,k)": {
+    "pop": 0.6698285012446724,
+    "n_rep": 1000,
+    "mean_est": 0.6670237441155573,
+    "sd_est": 0.06961627120095225,
+    "n_interval": 1000,
+    "cover_main": 0.957,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Lin's CCC": {
+    "pop": 0.42570412100260757,
+    "n_rep": 1000,
+    "mean_est": 0.42458608921576374,
+    "sd_est": 0.07088520795568402,
+    "n_interval": 1000,
+    "cover_main": 0.954,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.3659866659846418,
+    "n_rep": 1000,
+    "mean_est": 0.3622794950440565,
+    "sd_est": 0.08677199293712701,
+    "n_interval": 1000,
+    "cover_main": 0.943,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  },
+  "S10": {
+   "Percentage agreement": {
+    "pop": 0.03682170542635659,
+    "n_rep": 1000,
+    "mean_est": 0.03693410852713178,
+    "sd_est": 0.007443320721202001,
+    "n_interval": 1000,
+    "cover_main": 0.94,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,1)": {
+    "pop": 0.5275796967538223,
+    "n_rep": 1000,
+    "mean_est": 0.522648030664415,
+    "sd_est": 0.0557099596173327,
+    "n_interval": 1000,
+    "cover_main": 0.944,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,1)": {
+    "pop": 0.5380074280843044,
+    "n_rep": 1000,
+    "mean_est": 0.5339749152944874,
+    "sd_est": 0.05231918418194058,
+    "n_interval": 1000,
+    "cover_main": 0.985,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,1)": {
+    "pop": 0.5901093529683588,
+    "n_rep": 1000,
+    "mean_est": 0.588204654195203,
+    "sd_est": 0.049834032179903044,
+    "n_interval": 1000,
+    "cover_main": 0.959,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(1,k)": {
+    "pop": 0.8170855488161789,
+    "n_rep": 1000,
+    "mean_est": 0.8118367954066683,
+    "sd_est": 0.035150202322661424,
+    "n_interval": 1000,
+    "cover_main": 0.944,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(A,k)": {
+    "pop": 0.8232637209335295,
+    "n_rep": 1000,
+    "mean_est": 0.8189754468406896,
+    "sd_est": 0.031933523224290904,
+    "n_interval": 1000,
+    "cover_main": 0.985,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "ICC(C,k)": {
+    "pop": 0.8520425601891917,
+    "n_rep": 1000,
+    "mean_est": 0.8496013376545379,
+    "sd_est": 0.026864749791652674,
+    "n_interval": 1000,
+    "cover_main": 0.959,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   },
+   "Krippendorff's alpha": {
+    "pop": 0.5149663874706139,
+    "n_rep": 1000,
+    "mean_est": 0.5098664323744017,
+    "sd_est": 0.05772688347672745,
+    "n_interval": 1000,
+    "cover_main": 0.931,
+    "cover_t": null,
+    "se_ratio": null,
+    "se0_ratio": null
+   }
+  }
+ }
+}

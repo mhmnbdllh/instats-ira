@@ -1,0 +1,159 @@
+{
+ "R": 2000,
+ "seed": 20261022,
+ "results": {
+  "near-chance agreement, 90/10 prevalence | n=50": {
+   "Cohen kappa": {
+    "population": 0.0,
+    "valid_reps": 2000,
+    "coverage": 0.53
+   },
+   "Scott pi": {
+    "population": 0.0,
+    "valid_reps": 2000,
+    "coverage": 0.395
+   },
+   "Gwet AC1": {
+    "population": 0.7805,
+    "valid_reps": 2000,
+    "coverage": 0.928
+   }
+  },
+  "near-chance agreement, 90/10 prevalence | n=86": {
+   "Cohen kappa": {
+    "population": 0.0,
+    "valid_reps": 2000,
+    "coverage": 0.573
+   },
+   "Scott pi": {
+    "population": 0.0,
+    "valid_reps": 2000,
+    "coverage": 0.559
+   },
+   "Gwet AC1": {
+    "population": 0.7805,
+    "valid_reps": 2000,
+    "coverage": 0.938
+   }
+  },
+  "near-chance agreement, 90/10 prevalence | n=200": {
+   "Cohen kappa": {
+    "population": 0.0,
+    "valid_reps": 2000,
+    "coverage": 0.845
+   },
+   "Scott pi": {
+    "population": 0.0,
+    "valid_reps": 2000,
+    "coverage": 0.845
+   },
+   "Gwet AC1": {
+    "population": 0.7805,
+    "valid_reps": 2000,
+    "coverage": 0.943
+   }
+  },
+  "high agreement, 90/10 prevalence | n=50": {
+   "Cohen kappa": {
+    "population": 0.4444,
+    "valid_reps": 2000,
+    "coverage": 0.86
+   },
+   "Scott pi": {
+    "population": 0.4444,
+    "valid_reps": 2000,
+    "coverage": 0.861
+   },
+   "Gwet AC1": {
+    "population": 0.878,
+    "valid_reps": 2000,
+    "coverage": 0.889
+   }
+  },
+  "high agreement, 90/10 prevalence | n=86": {
+   "Cohen kappa": {
+    "population": 0.4444,
+    "valid_reps": 2000,
+    "coverage": 0.903
+   },
+   "Scott pi": {
+    "population": 0.4444,
+    "valid_reps": 2000,
+    "coverage": 0.903
+   },
+   "Gwet AC1": {
+    "population": 0.878,
+    "valid_reps": 2000,
+    "coverage": 0.928
+   }
+  },
+  "high agreement, 90/10 prevalence | n=200": {
+   "Cohen kappa": {
+    "population": 0.4444,
+    "valid_reps": 2000,
+    "coverage": 0.941
+   },
+   "Scott pi": {
+    "population": 0.4444,
+    "valid_reps": 2000,
+    "coverage": 0.942
+   },
+   "Gwet AC1": {
+    "population": 0.878,
+    "valid_reps": 2000,
+    "coverage": 0.94
+   }
+  },
+  "moderate agreement, 75/25 prevalence | n=50": {
+   "Cohen kappa": {
+    "population": 0.4667,
+    "valid_reps": 2000,
+    "coverage": 0.925
+   },
+   "Scott pi": {
+    "population": 0.4667,
+    "valid_reps": 2000,
+    "coverage": 0.925
+   },
+   "Gwet AC1": {
+    "population": 0.68,
+    "valid_reps": 2000,
+    "coverage": 0.927
+   }
+  },
+  "moderate agreement, 75/25 prevalence | n=86": {
+   "Cohen kappa": {
+    "population": 0.4667,
+    "valid_reps": 2000,
+    "coverage": 0.933
+   },
+   "Scott pi": {
+    "population": 0.4667,
+    "valid_reps": 2000,
+    "coverage": 0.936
+   },
+   "Gwet AC1": {
+    "population": 0.68,
+    "valid_reps": 2000,
+    "coverage": 0.932
+   }
+  },
+  "moderate agreement, 75/25 prevalence | n=200": {
+   "Cohen kappa": {
+    "population": 0.4667,
+    "valid_reps": 2000,
+    "coverage": 0.945
+   },
+   "Scott pi": {
+    "population": 0.4667,
+    "valid_reps": 2000,
+    "coverage": 0.944
+   },
+   "Gwet AC1": {
+    "population": 0.68,
+    "valid_reps": 2000,
+    "coverage": 0.945
+   }
+  }
+ }
+}
